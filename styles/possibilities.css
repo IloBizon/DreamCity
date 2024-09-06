@@ -1,0 +1,62 @@
+.possibilities-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    height: 100vh;
+}
+.possibilities-headline {
+    text-transform: uppercase;
+    font-size: 4vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    color: #304041;
+    font-weight: 800;
+}
+
+
+.possibilities-info {
+    margin: 0;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.possibilities-image {
+    margin-left: auto;
+    margin-right: 4vw;
+    width: 40%;
+    min-height: 100%;
+}
+
+
+.possibilities-info-list {
+    max-width: 30%;
+    list-style-type: none;
+    margin-left: 15vw;
+}
+
+.possibility {
+    font-weight: 400;
+    font-size: 2.5vh;
+    margin: 10vh 0;
+    color: #304041;
+    padding: 0;
+    column-gap: 10vh;
+}
+
+.possibility p {
+    color: #304041;
+    font-weight: 500;
+}
+
+.possibilities-separator {
+    background-color: #FF7E36;
+    width: 5vw;
+    height: 1.3vh;
+    border-radius: 10vh;
+    margin-bottom: 2vh;
+}
+

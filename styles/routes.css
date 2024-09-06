@@ -1,0 +1,65 @@
+.routes-section {
+    margin-bottom: 10vh;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.routes-headline {
+    text-transform: uppercase;
+    font-size: 4vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    color: #304041;
+    font-weight: 800;
+}
+
+.main-route-container {
+    border-radius: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 70vw;
+    background-color: #FFF6F1;
+}
+
+.text-block{
+    padding: 10vh;
+    width: 50%;
+}
+
+.right-image{
+    border-bottom-right-radius: 3vh;
+    border-top-right-radius: 3vh;
+    margin-left: auto;
+    width: 50%;
+    min-height: 100%;
+}
+
+
+.route-num-text {
+    color: #789AA0;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.historical-center {
+    margin: 2vh 0 7vh 0;
+    color: #304041;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.show-routes-button {
+    margin-top: 10vh;
+    color: #FF7E36;
+    font-weight: 900;
+    text-decoration: none;
+    border: 2px solid #FF7E36;
+    border-radius: 10vh;
+    padding: 3vh;
+    width: 15vw;
+    text-align: center;
+}
